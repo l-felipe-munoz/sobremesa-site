@@ -1,0 +1,48 @@
+---
+layout: default
+---
+{% assign t = site.data.i18n[page.lang].home %}{% assign s = site.data.sazon[page.lang] %}
+{% if page.lang == 'es' %}{% assign sazon = '/es/templates/sazon/' %}{% else %}{% assign sazon = '/templates/sazon/' %}{% endif %}
+<section class="hero">
+  <div class="wrap hero__in">
+    <div>
+      <p class="eyebrow">{{ t.eyebrow }}</p>
+      <h1>{{ t.h1 }}</h1>
+      <p class="lead">{{ t.lead }}</p>
+      <p class="ctas"><a class="btn btn--brand" href="{{ sazon }}">{{ t.cta }}</a> <a class="btn btn--ghost" href="#why">{{ t.cta2 }}</a></p>
+    </div>
+    <div class="shot">{% assign a0 = s.gallery[0][1] %}{% include pic.html n="portada" alt=a0 eager=true %}</div>
+  </div>
+</section>
+<section class="band">
+  <div class="wrap">
+    <h2>{{ t.value_title }}</h2>
+    <ul class="cards">{% for v in t.values %}<li class="card"><h3>{{ v.t }}</h3><p>{{ v.d }}</p></li>{% endfor %}</ul>
+  </div>
+</section>
+<section>
+  <div class="wrap feat">
+    <div class="shot">{% assign a1 = s.gallery[1][1] %}{% include pic.html n="muestra-01" alt=a1 lazy=true %}</div>
+    <div>
+      <p class="eyebrow">{{ t.featured_kicker }}</p>
+      <h2 class="sr">Sazón — by Sobremesa Studio</h2>
+      <img class="endorsed" src="/assets/img/producto-sazon-endorsed-claro.svg" alt="Sazón — by Sobremesa Studio" width="733" height="162" loading="lazy">
+      <p>{{ t.featured_text }}</p>
+      <p class="price"><strong>{{ s.price }}</strong> <span>{{ s.price_note }}</span></p>
+      <p><a class="btn btn--brand" href="{{ sazon }}">{{ t.featured_cta }}</a></p>
+    </div>
+  </div>
+</section>
+<section id="why" class="band">
+  <div class="wrap narrow">
+    <h2>{{ t.why_title }}</h2>
+    <ul class="checks">{% for w in t.why %}<li>{{ w }}</li>{% endfor %}</ul>
+  </div>
+</section>
+<section class="cta">
+  <div class="wrap narrow center">
+    <h2>{{ t.cta_title }}</h2>
+    <p>{{ t.cta_text }}</p>
+    <p class="ctas center">{% include buy.html %} <a class="btn btn--ghost" href="{{ sazon }}#lite">Sazón Lite</a></p>
+  </div>
+</section>

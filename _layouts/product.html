@@ -1,0 +1,44 @@
+---
+layout: default
+---
+{% assign s = site.data.sazon[page.lang] %}
+<section class="hero">
+  <div class="wrap hero__in">
+    <div>
+      <p class="eyebrow">{{ s.kicker }}</p>
+      <h1><span class="sr">Sazón — by Sobremesa Studio</span><img class="endorsed" src="/assets/img/producto-sazon-endorsed-claro.svg" alt="" width="733" height="162"></h1>
+      <p class="descriptor">{{ s.descriptor }}</p>
+      <p class="lead">{{ s.lead }}</p>
+      <p class="price"><strong>{{ s.price }}</strong> <span>{{ s.price_note }}</span></p>
+      <p class="ctas">{% include buy.html %} <a class="btn btn--ghost" href="#lite">{{ s.lite_btn }}</a></p>
+    </div>
+    <div class="shot">{% assign a0 = s.gallery[0][1] %}{% include pic.html n="portada" alt=a0 eager=true %}</div>
+  </div>
+</section>
+<section class="band">
+  <div class="wrap">
+    <h2>{{ s.benefits_title }}</h2>
+    <ul class="cards cards--2">{% for b in s.benefits %}<li class="card"><h3>{{ b.t }}</h3><p>{{ b.d }}</p></li>{% endfor %}</ul>
+    <h3 class="mt">{{ s.includes_title }}</h3>
+    <ul class="checks">{% for i in s.includes %}<li>{{ i }}</li>{% endfor %}</ul>
+  </div>
+</section>
+<section>
+  <div class="wrap">
+    <h2>{{ s.gallery_title }}</h2>
+    <ul class="gallery">{% for g in s.gallery offset:1 %}<li><figure class="shot">{% assign gn = g[0] %}{% include pic.html n=gn alt="" lazy=true %}<figcaption>{{ g[1] }}</figcaption></figure></li>{% endfor %}</ul>
+  </div>
+</section>
+<section id="lite" class="band">
+  <div class="wrap narrow center">
+    <h2>{{ s.lite_title }}</h2>
+    <p>{{ s.lite_text }}</p>
+    <p>{% include lite.html %}</p>
+  </div>
+</section>
+<section>
+  <div class="wrap narrow">
+    <h2>{{ s.faq_title }}</h2>
+    {% for f in s.faq %}<details class="faq"><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>{% endfor %}
+  </div>
+</section>

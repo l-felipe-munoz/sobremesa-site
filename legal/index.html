@@ -1,0 +1,13 @@
+---
+layout: page
+lang: en
+title: "Legal: license, refunds, privacy · Sobremesa Studio"
+description: "Sobremesa Studio template license, 14-day refund policy and privacy notice."
+alt: /es/legal/
+---
+{% assign t = site.data.i18n[page.lang].legal %}
+<h1>{{ t.title }}</h1>
+<h2 id="license">{{ t.license_h }}</h2><p>{{ t.license }}</p>
+<h2 id="refunds">{{ t.refund_h }}</h2><p>{{ t.refund }}</p>
+<h2 id="privacy">{{ t.privacy_h }}</h2><p>{{ t.privacy }}</p>
+<p class="muted">{{ t.updated }}</p>

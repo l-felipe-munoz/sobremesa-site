@@ -1,0 +1,15 @@
+title: Sobremesa Studio
+tagline: Bilingual restaurant templates
+description: Bilingual (EN/ES) Framer website templates for restaurants, cafés and bars — with WhatsApp reservations and a CMS menu. One-time payment.
+url: "https://sobremesatemplates.com"
+baseurl: ""
+lang: en
+permalink: pretty
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+# Checkout links (empty -> button shows "Coming soon", disabled)
+sazon_checkout_url: ""
+sazon_lite_url: ""
+contact_email: ""
+exclude: [Gemfile, Gemfile.lock, README.md, sync-brand.py, vendor, .bundle]

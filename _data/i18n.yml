@@ -1,0 +1,86 @@
+en:
+  skip: Skip to content
+  nav: {home: Home, sazon: Sazón, about: About, legal: Legal}
+  switch_label: "Español"
+  home:
+    eyebrow: Sobremesa Studio
+    h1: Bilingual restaurant templates
+    lead: "Your restaurant site, in two languages, today. Framer templates in English and Spanish, with WhatsApp reservations and a menu you can edit. Pay once."
+    cta: See Sazón
+    cta2: Why bilingual
+    value_title: What you get with Sobremesa
+    values:
+      - {t: "Two languages, built in", d: "English and Spanish with Framer's native localization — not a translation plugin."}
+      - {t: "Reservations on WhatsApp", d: "Guests fill a short form and WhatsApp opens with the message already written."}
+      - {t: "A menu you can edit", d: "Dishes, prices and tags live in the CMS. No code, no developer."}
+      - {t: "Pay once", d: "One-time price with a commercial license for your own or your clients' sites."}
+    featured_kicker: Featured template
+    featured_text: "A warm, modern template for restaurants, cafés, taquerías, bakeries and bars that serve guests in two languages. 11 pages, CMS menu and WhatsApp reservations."
+    featured_cta: View template
+    why_title: Why bilingual + WhatsApp
+    why:
+      - "Many Latino restaurants in the US and LatAm serve guests in both English and Spanish. Your website should too."
+      - "WhatsApp is where your guests already talk. A booking that lands in your chat gets answered; a form email often doesn't."
+      - "A clear menu and a one-tap booking turn visitors into full tables."
+    cta_title: Ready for your next sobremesa?
+    cta_text: "Get Sazón, or try the free Sazón Lite first."
+  about:
+    title: About Sobremesa Studio
+    h1: About
+    p1: "Sobremesa is the conversation that lingers at the table after a meal — when a restaurant becomes a place you want to return to. Sobremesa Studio designs the websites that start that conversation."
+    p2: "We make bilingual Framer templates for restaurant owners, and for the freelancers and agencies who build for them, across Latin America and the Hispanic US market."
+    p3: "Made in Colombia by"
+    p3b: "cloud & AI architect."
+  legal:
+    title: Legal
+    license_h: License
+    license: "Each purchase grants a non-exclusive license to use the template on unlimited websites for yourself or your clients. You may not resell, redistribute or share the template (or modified versions) as a template, UI kit or theme."
+    refund_h: Refunds
+    refund: "If the template doesn't work as described, request a full refund within 14 days of purchase by replying to your receipt email."
+    privacy_h: Privacy
+    privacy: "This website does not use cookies, analytics or trackers, and does not collect personal data. Payments are processed by our payment provider (Lemon Squeezy as merchant of record), which handles your data under its own privacy policy. Questions: reply to your receipt or contact us via the About page."
+    updated: "Last updated: November 2026"
+  footer: "Bilingual restaurant templates. Made in Colombia."
+es:
+  skip: Saltar al contenido
+  nav: {home: Inicio, sazon: Sazón, about: Nosotros, legal: Legal}
+  switch_label: "English"
+  home:
+    eyebrow: Sobremesa Studio
+    h1: Bilingual restaurant templates
+    lead: "Tu web en dos idiomas, lista hoy. Plantillas de Framer en español e inglés, con reservas por WhatsApp y un menú que editas tú. Pagas una vez."
+    cta: Ver Sazón
+    cta2: Por qué bilingüe
+    value_title: Lo que te da Sobremesa
+    values:
+      - {t: "Dos idiomas de verdad", d: "Español e inglés con la localización nativa de Framer, no con un plugin de traducción."}
+      - {t: "Reservas por WhatsApp", d: "Tu cliente llena un formulario corto y se abre WhatsApp con el mensaje ya escrito."}
+      - {t: "Un menú que editas tú", d: "Platos, precios y etiquetas en el CMS. Sin programar y sin depender de nadie."}
+      - {t: "Pagas una vez", d: "Pago único con licencia comercial para tus sitios o los de tus clientes."}
+    featured_kicker: Plantilla destacada
+    featured_text: "Una plantilla cálida y moderna para restaurantes, cafés, taquerías, panaderías y bares que atienden en dos idiomas. 11 páginas, menú en CMS y reservas por WhatsApp."
+    featured_cta: Ver plantilla
+    why_title: Por qué bilingüe + WhatsApp
+    why:
+      - "Muchos restaurantes latinos en EE. UU. y LatAm atienden en español y en inglés. Tu web también debería."
+      - "WhatsApp es donde ya hablan tus clientes. Una reserva que llega a tu chat se responde; un correo de formulario, muchas veces no."
+      - "Un menú claro y una reserva en un toque convierten visitas en mesas llenas."
+    cta_title: ¿Lista tu próxima sobremesa?
+    cta_text: "Consigue Sazón, o prueba primero Sazón Lite, la versión gratis."
+  about:
+    title: Nosotros · Sobremesa Studio
+    h1: Nosotros
+    p1: "La sobremesa es esa conversación que se queda en la mesa después de comer, cuando un restaurante se vuelve un lugar al que quieres volver. Sobremesa Studio diseña las webs que empiezan esa conversación."
+    p2: "Hacemos plantillas bilingües de Framer para dueños de restaurantes y para los freelancers y agencias que les construyen sus sitios, en Latinoamérica y el mercado hispano de EE. UU."
+    p3: "Hecho en Colombia por"
+    p3b: "arquitecto cloud e IA."
+  legal:
+    title: Legal
+    license_h: Licencia
+    license: "Cada compra da una licencia no exclusiva para usar la plantilla en sitios ilimitados, tuyos o de tus clientes. No puedes revender, redistribuir ni compartir la plantilla (ni versiones modificadas) como plantilla, kit de UI o tema."
+    refund_h: Reembolsos
+    refund: "Si la plantilla no funciona como se describe, pide el reembolso completo dentro de los 14 días siguientes a la compra respondiendo al correo de tu recibo."
+    privacy_h: Privacidad
+    privacy: "Este sitio no usa cookies, analítica ni rastreadores, y no recoge datos personales. Los pagos los procesa nuestro proveedor de pagos (Lemon Squeezy como comerciante registrado), que trata tus datos según su propia política de privacidad. Dudas: responde a tu recibo o escríbenos desde la página Nosotros."
+    updated: "Última actualización: noviembre de 2026"
+  footer: "Plantillas bilingües para restaurantes. Hecho en Colombia."

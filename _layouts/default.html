@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="{{ page.lang }}">
+<head>{% include head.html %}</head>
+<body>
+{% assign t = site.data.i18n[page.lang] %}
+{% if page.lang == 'es' %}{% assign base = '/es' %}{% assign sazon = '/es/templates/sazon/' %}{% assign about = '/es/nosotros/' %}{% else %}{% assign base = '' %}{% assign sazon = '/templates/sazon/' %}{% assign about = '/about/' %}{% endif %}
+<a class="skip" href="#main">{{ t.skip }}</a>
+<header class="hdr">
+  <div class="wrap hdr__in">
+    <a href="{{ base }}/" class="hdr__logo"><img src="/assets/img/sobremesa-horizontal-claro.svg" alt="Sobremesa Studio" width="180" height="40"></a>
+    <nav aria-label="{% if page.lang == 'es' %}Principal{% else %}Main{% endif %}">
+      <ul class="nav">
+        <li><a href="{{ sazon }}"{% if page.url == sazon %} aria-current="page"{% endif %}>{{ t.nav.sazon }}</a></li>
+        <li><a href="{{ about }}"{% if page.url == about %} aria-current="page"{% endif %}>{{ t.nav.about }}</a></li>
+        <li><a href="{{ base }}/legal/"{% if page.url contains '/legal/' %} aria-current="page"{% endif %}>{{ t.nav.legal }}</a></li>
+        <li><a class="lang" href="{{ page.alt }}" hreflang="{% if page.lang == 'en' %}es{% else %}en{% endif %}" lang="{% if page.lang == 'en' %}es{% else %}en{% endif %}">{% if page.lang == 'en' %}ES<span class="sr"> – Español</span>{% else %}EN<span class="sr"> – English</span>{% endif %}</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+{{ content }}
+</main>
+<footer class="ftr">
+  <div class="wrap ftr__in">
+    <img src="/assets/img/sobremesa-icono-claro.svg" alt="" width="36" height="36">
+    <p>© 2026 Sobremesa Studio · {{ t.footer }}</p>
+    <p><a href="{{ about }}">{{ t.nav.about }}</a> · <a href="{{ base }}/legal/">{{ t.nav.legal }}</a></p>
+  </div>
+</footer>
+</body>
+</html>

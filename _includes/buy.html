@@ -1,0 +1,2 @@
+{% assign s = site.data.sazon[page.lang] %}
+{% if site.sazon_checkout_url != "" %}<a class="btn btn--brand" href="{{ site.sazon_checkout_url }}">{{ s.buy }}</a>{% else %}<span class="btn btn--brand is-off" role="link" aria-disabled="true">{{ s.buy }} · {{ s.soon }}</span>{% endif %}

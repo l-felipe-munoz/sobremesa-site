@@ -1,0 +1,2 @@
+{% assign s = site.data.sazon[page.lang] %}
+{% if site.sazon_lite_url != "" %}<a class="btn btn--ghost" href="{{ site.sazon_lite_url }}">{{ s.lite_btn }}</a>{% else %}<span class="btn btn--ghost is-off" role="link" aria-disabled="true">{{ s.lite_btn }} · {{ s.soon }}</span>{% endif %}

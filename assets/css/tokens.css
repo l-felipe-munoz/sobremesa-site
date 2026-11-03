@@ -1,0 +1,48 @@
+:root{
+  --color-terracota: #B84A26;
+  --color-crema: #F6EFE4;
+  --color-oliva: #56653A;
+  --color-carbon: #1E1B18;
+  --color-arena: #EADFCB;
+  --color-terracota-claro: #E9A27F;
+  --color-oliva-claro: #9DB36A;
+  --color-bg: var(--color-crema);
+  --color-surface: var(--color-arena);
+  --color-text: var(--color-carbon);
+  --color-brand: var(--color-terracota);
+  --color-on-brand: var(--color-crema);
+  --color-accent: var(--color-oliva);
+  --font-display: "Fraunces", Georgia, serif;
+  --font-display-settings: "SOFT" 100, "WONK" 1, "opsz" 144;
+  --font-body: "Inter", system-ui, sans-serif;
+  --fs-xs: 12px;
+  --fs-sm: 14px;
+  --fs-base: 16px;
+  --fs-lg: 20px;
+  --fs-xl: 25px;
+  --fs-2xl: 31px;
+  --fs-3xl: 39px;
+  --fs-4xl: 49px;
+  --fs-5xl: 61px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+}
+[data-theme="dark"]{
+  --color-bg: var(--color-carbon);
+  --color-surface: #2A2622;
+  --color-text: var(--color-crema);
+  --color-brand: var(--color-terracota-claro);
+  --color-on-brand: var(--color-carbon);
+  --color-accent: var(--color-oliva-claro);
+}
