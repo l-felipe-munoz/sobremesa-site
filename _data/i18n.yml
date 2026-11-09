@@ -38,7 +38,7 @@ en:
     refund_h: Refunds
     refund: "If the template doesn't work as described, request a full refund within 14 days of purchase by replying to your receipt email."
     privacy_h: Privacy
-    privacy: "This website does not use cookies, analytics or trackers, and does not collect personal data. Payments are processed by our payment provider (Lemon Squeezy as merchant of record), which handles your data under its own privacy policy. Questions: reply to your receipt or contact us via the About page."
+    privacy: "This website does not use cookies, analytics or trackers, and does not collect personal data. Payments are processed by our payment provider (Gumroad), which handles your data under its own privacy policy. Questions: reply to your receipt or contact us via the About page."
     updated: "Last updated: November 2026"
   footer: "Bilingual restaurant templates. Made in Colombia."
 es:
@@ -81,6 +81,6 @@ es:
     refund_h: Reembolsos
     refund: "Si la plantilla no funciona como se describe, pide el reembolso completo dentro de los 14 días siguientes a la compra respondiendo al correo de tu recibo."
     privacy_h: Privacidad
-    privacy: "Este sitio no usa cookies, analítica ni rastreadores, y no recoge datos personales. Los pagos los procesa nuestro proveedor de pagos (Lemon Squeezy como comerciante registrado), que trata tus datos según su propia política de privacidad. Dudas: responde a tu recibo o escríbenos desde la página Nosotros."
+    privacy: "Este sitio no usa cookies, analítica ni rastreadores, y no recoge datos personales. Los pagos los procesa nuestro proveedor de pagos (Gumroad), que trata tus datos según su propia política de privacidad. Dudas: responde a tu recibo o escríbenos desde la página Nosotros."
     updated: "Última actualización: noviembre de 2026"
   footer: "Plantillas bilingües para restaurantes. Hecho en Colombia."
