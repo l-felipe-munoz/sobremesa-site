@@ -32,7 +32,8 @@ es:
   gallery: [["portada","Portada de Sazón — by Sobremesa Studio"],["muestra-01","Página de inicio"],["muestra-02","Menú con CMS"],["muestra-03","Reservas por WhatsApp"]]
   lite_title: Sazón Lite · gratis
   lite_text: "¿Quieres probar antes? Sazón Lite es la versión gratuita con Inicio, Menú, «Empieza aquí» y 404. Cuando necesites reservas, eventos y las 11 páginas, pasa a la versión completa."
-  lite_btn: Obtener Sazón Lite
+  lite_btn: Pruébala gratis
+  marketplace_pro: También en el Marketplace de Framer
   faq_title: Preguntas frecuentes
   faq:
     - q: ¿Qué recibo?
@@ -77,7 +78,8 @@ en:
   gallery: [["portada","Sazón — by Sobremesa Studio cover"],["muestra-01","Home page"],["muestra-02","CMS menu"],["muestra-03","WhatsApp reservations"]]
   lite_title: Sazón Lite · free
   lite_text: "Want to try first? Sazón Lite is the free version with Home, Menu, Start Here and 404. When you need reservations, events and all 11 pages, upgrade to the full template."
-  lite_btn: Get Sazón Lite
+  lite_btn: Try it free
+  marketplace_pro: Also on the Framer Marketplace
   faq_title: FAQ
   faq:
     - q: What do I get?

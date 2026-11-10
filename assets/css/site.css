@@ -55,6 +55,9 @@ figure{margin:0} figcaption{margin-top:var(--space-3);color:#4a433c;font-size:va
 .cta .is-off{background:#4a433c;border-color:#4a433c;color:var(--color-crema)}
 .prose h2{font-size:var(--fs-2xl);margin-top:var(--space-8)} .logo-lg{width:min(100%,420px);margin:var(--space-6) 0}
 .muted{color:#4a433c}
+.market{margin:var(--space-3) 0 0;font-size:var(--fs-sm)}
+.market a{color:#4a433c}
+.market a:hover{color:var(--color-brand)}
 .ftr{border-top:1px solid rgba(30,27,24,.12);padding:var(--space-8) 0;font-size:var(--fs-sm)}
 .ftr__in{display:flex;gap:var(--space-4);align-items:center;flex-wrap:wrap;justify-content:space-between} .ftr p{margin:0}
 @media (max-width:900px){.cards{grid-template-columns:repeat(2,1fr)}}

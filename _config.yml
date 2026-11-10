@@ -8,8 +8,9 @@ permalink: pretty
 markdown: kramdown
 plugins:
   - jekyll-sitemap
-# Checkout links (empty -> button shows "Coming soon", disabled)
+# Checkout and Marketplace links (empty -> button shows "Coming soon", disabled)
 sazon_checkout_url: "https://irbisblanco.gumroad.com/l/zthtmd"
-sazon_lite_url: ""
+sazon_lite_url: "https://www.framer.com/marketplace/templates/saz-n-lite/"
+sazon_pro_marketplace_url: "https://www.framer.com/marketplace/templates/saz-n-pro/"
 contact_email: ""
 exclude: [Gemfile, Gemfile.lock, README.md, sync-brand.py, vendor, .bundle]
